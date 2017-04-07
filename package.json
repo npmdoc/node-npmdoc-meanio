@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"meanio",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "meanio",
+    "description": "api documentation for [meanio (v0.9.4)](https://github.com/linnovate/meanio#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-meanio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-meanio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-meanio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-meanio)",
     "devDependencies": {
-        "meanio": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "meanio": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-meanio",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-meanio",
+    "keywords": [
+        "documentation",
+        "meanio"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_meanio.js",
+    "name": "npmdoc-meanio",
+    "nameAlias": "npmdoc_meanio",
+    "nameOriginal": "npmdoc-meanio",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-meanio"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
