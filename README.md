@@ -1,9 +1,14 @@
-# api documentation for  [meanio (v0.9.4)](https://github.com/linnovate/meanio#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-meanio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-meanio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-meanio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-meanio)
+# npmdoc-meanio
+
+#### api documentation for  [meanio (v0.9.4)](https://github.com/linnovate/meanio#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-meanio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-meanio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-meanio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-meanio)
+
 #### Extracted functionality for MEAN.io
 
-[![NPM](https://nodei.co/npm/meanio.png?downloads=true)](https://www.npmjs.com/package/meanio)
+[![NPM](https://nodei.co/npm/meanio.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/meanio)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-meanio/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-meanio_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-meanio/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-meanio/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-meanio/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-meanio/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-meanio/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-meanio/build/screenCapture.npmPackageListing.svg)
 
@@ -74,33 +79,26 @@
     "main": "lib/mean.js",
     "maintainers": [
         {
-            "name": "andrija-hers",
-            "email": "andrija.hers@gmail.com"
+            "name": "andrija-hers"
         },
         {
-            "name": "ellman",
-            "email": "yonatan@nodeside.com"
+            "name": "ellman"
         },
         {
-            "name": "fyockm",
-            "email": "fyockm@gmail.com"
+            "name": "fyockm"
         },
         {
-            "name": "linnovate",
-            "email": "lior@linnovate.net"
+            "name": "linnovate"
         },
         {
-            "name": "oritpersik",
-            "email": "orit@linnovate.net"
+            "name": "oritpersik"
         },
         {
-            "name": "vapes",
-            "email": "vapesk@gmail.com"
+            "name": "vapes"
         }
     ],
     "name": "meanio",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/linnovate/meanio.git"
@@ -115,21 +113,6 @@
     "version": "0.9.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module meanio](#apidoc.module.meanio)
-1.  object <span class="apidocSignatureSpan">meanio.</span>consumers
-1.  object <span class="apidocSignatureSpan">meanio.</span>instanceWaitersQ
-1.  object <span class="apidocSignatureSpan">meanio.</span>resolved
-1.  object <span class="apidocSignatureSpan">meanio.</span>unresolved
-1.  string <span class="apidocSignatureSpan">meanio.</span>version
-
-
-
-# <a name="apidoc.module.meanio"></a>[module meanio](#apidoc.module.meanio)
 
 
 
