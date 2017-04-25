@@ -1,6 +1,6 @@
 # npmdoc-meanio
 
-#### api documentation for  [meanio (v0.9.4)](https://github.com/linnovate/meanio#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-meanio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-meanio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-meanio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-meanio)
+#### basic api documentation for  [meanio (v0.9.4)](https://github.com/linnovate/meanio#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-meanio.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-meanio) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-meanio.svg)](https://travis-ci.org/npmdoc/node-npmdoc-meanio)
 
 #### Extracted functionality for MEAN.io
 
@@ -110,7 +110,8 @@
         "test": "gulp test"
     },
     "snyk": true,
-    "version": "0.9.4"
+    "version": "0.9.4",
+    "bin": {}
 }
 ```
 
